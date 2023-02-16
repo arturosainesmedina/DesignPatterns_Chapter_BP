@@ -23,8 +23,8 @@ namespace DesignPatterns_Chapter_BP
                 var ejecProb = new EjecutadorEjercicio(sistemaoperativo);
 
                 //Ejecucion codigo con problema
-                Console.WriteLine("");
-                Console.WriteLine("");
+                Console.WriteLine();
+                Console.WriteLine();
                 Console.WriteLine("------Ejecucion de codigo con problemas:");
                 ejecProb.EjecutarEjemploConProblema();
 
@@ -32,10 +32,10 @@ namespace DesignPatterns_Chapter_BP
 
 
                 //Ejecucion codigo refactorizado con Patrón Factory
-                Console.WriteLine("");
-                Console.WriteLine("");
-                Console.WriteLine("------Ejecucion de codigo con patrón Factory:");
-                ejecProb.EjecutarEjemploConPatronFactory();
+                Console.WriteLine();
+                Console.WriteLine();
+                //Console.WriteLine("------Ejecucion de codigo con patrón Factory:");
+                //ejecProb.EjecutarEjemploConPatronFactory();
 
 
 
