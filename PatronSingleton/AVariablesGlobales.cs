@@ -8,12 +8,12 @@ namespace PatronSingleton
 {
     public abstract class AVariablesGlobales
     {
-        private readonly string _nombreVariable;
+        private string _nombreVariable;
 
-        protected AVariablesGlobales(string nombreVariable)
-        {
-            _nombreVariable = nombreVariable;
-        }
+        //protected AVariablesGlobales(string nombreVariable)
+        //{
+        //    _nombreVariable = nombreVariable;
+        //}
 
 
         public string Nombre => _nombreVariable;
@@ -21,6 +21,10 @@ namespace PatronSingleton
         public string Valor { get; set; }
 
 
+        protected void SetNombreVariable(string nombreVariable)
+        {
+            _nombreVariable = nombreVariable;
+        }
 
         public virtual void EjecutarProcesoConVariable()
         {

@@ -8,8 +8,9 @@ namespace PatronSingleton
 {
     public class VarGlobalPath : AVariablesGlobales
     {
-        public VarGlobalPath() : base("Path")
+        public VarGlobalPath()
         {
+            base.SetNombreVariable("Path");
         }
 
         public override void EjecutarProcesoConVariable()
