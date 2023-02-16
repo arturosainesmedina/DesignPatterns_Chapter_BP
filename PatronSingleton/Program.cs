@@ -42,7 +42,7 @@
             varSys1.EjecutarProcesoConVariable();
 
 
-            //Se seta un valor nuevo desde el objeto varPath1 y el resultado NO se ve reflejado en la variable varPath2 porque son 2 instancias diferentes
+            //Se seta un valor nuevo desde el objeto varPath1 y el resultado NO se ve reflejado en la variable varPath2 porque son 2 instancias diferentes, y por ende, valores diferentes
             varPath1.Valor = "50";
             AVariablesGlobales varPath2 = new VarGlobalPath();
             varPath2.EjecutarProcesoConVariable();
