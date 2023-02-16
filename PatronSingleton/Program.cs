@@ -14,8 +14,8 @@
             Console.WriteLine();
 
             //Ejecucion con Singleton
-            Console.WriteLine("Se ejecuta el codigo CON singleton: ");
-            EjecutarCodigoConSingleton();
+            //Console.WriteLine("Se ejecuta el codigo CON singleton: ");
+            //EjecutarCodigoConSingleton();
 
 
             Console.ReadKey();
