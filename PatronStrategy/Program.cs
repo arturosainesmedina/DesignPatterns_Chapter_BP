@@ -19,7 +19,7 @@ namespace PatronStrategy
 
             //Ejecucion con problemas
             facturero.ObtenerValorTotalConProblemas();
-
+             
 
             Console.WriteLine();
             Console.WriteLine();
